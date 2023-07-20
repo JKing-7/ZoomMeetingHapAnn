@@ -1,0 +1,142 @@
+body {
+    background: white;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 64px;
+    color: #232333;
+    font-size: 12px;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    display: block;
+    background-color: rgba(255,255,255,.97);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.actButt {
+    background-color: transparent;
+    height: 100%;
+    width: 13%;
+    margin-right: 14px;
+    float: right;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.left {
+    float: left;
+    line-height: normal;
+    margin-top: 19px;
+    box-sizing: border-box;
+}
+img {
+    width: 110px;
+    height: 25px;
+    margin-left: 26px;
+    display: inline-block;
+    background: transparent;
+}
+.support {
+    align-items: center;
+    justify-content: space-around;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 300;
+    color: #2073D9;
+}
+.language {
+    align-items: center;
+    justify-content: space-around;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 300;
+    color: #2073D9;
+}
+.fPara {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-size: 20px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #232333;
+    line-height: 40px;
+    padding: 12px 0;
+    display: block;
+    margin-top: 230px;
+    text-align: center;
+}
+h2 {
+    font-size: 16px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #232333;
+    padding: 12px, 0px;
+    margin-top: 16px;
+}
+.launchButt{
+    background: #0e72ed;
+    border-radius: 12px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 12px;
+    padding: 8px 40px;
+    text-align: center;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 27px;
+    text-decoration: none;
+}
+a:link { text-decoration: none;}
+a:visited { text-decoration: none;}
+a:hover { text-decoration: underline;}
+a:active { text-decoration: underline;}
+hr {
+    background-color: #ededf4;
+    border: none;
+    height: 2px;
+    margin: 48px 0;
+    width: 100%;
+    display: block;
+}
+h3 {
+    color: #232333;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    display: block;
+    margin: 1px;
+}
+.footer {
+    font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    padding: 24px;
+    width: 100%;
+    bottom: 0;
+    min-height: 64px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(4, 4, 19, 0.56);
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 50px;
+}
+.bottButts {
+
+}

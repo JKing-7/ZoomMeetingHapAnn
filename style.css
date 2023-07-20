@@ -1,0 +1,163 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color:black;
+}
+p{
+	font-size: 8px;
+	line-height: 8px;
+	text-align: justify;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background: url(chilltop.jpg) no-repeat center;
+	background-attachment: fixed;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgb(225, 225, 255, 0)
+}
+.button{
+	color: white;
+	font-family: 'Courier New';
+	font-weight: bolder;
+	font-size: 10px;
+	text-align: center;
+}
+.close{
+	color: white;
+	font-family: 'Courier New';
+	font-weight: bolder;
+	font-size: 20px;
+	text-align: center;
+}
+.volButton{
+	color: lightpink;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
+.banner{
+	color: lightcoral;
+    font-size: 70px;
+    font-family: 'Courier New';
+    font-weight: bold;
+    text-align: center;
+}
+.message{
+	color: lightcoral;
+    font-size: 30px;
+    font-family: 'Courier New';   
+}
+.para1 {
+	color: lightcoral;
+    font-size: 25px;
+    font-family: 'Courier New';
+    text-align: right;
+}
+.kskmk {
+	color: lightcoral;
+    font-size: 25px;
+    font-family: 'Courier New';
+    text-align: left;
+}
+h4 {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 200;
+	color: white;
+	text-align: center;
+}
+.panelContainer {
+	height: 20cm;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border: 1px solid rgb(202, 202, 202);
+	background-color: black;
+	text-align: center;
+	position: relative;
+}
+.item1 { 
+	height: .70cm;
+	width: inherit;
+	border: 1px solid rgb(202, 202, 202);
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.circleRed {
+    background: rgba(194, 0, 0, 0.685);
+    border-radius: 50%;
+	border: 1px solid black;
+    width: 10px;
+    height: 10px;
+	margin: 1px;
+	margin-right: 5px;
+}
+.circleYellow {
+    background: rgb(242, 255, 60);
+    border-radius: 50%;
+	border: 1px solid black;
+    width: 10px;
+    height: 10px;
+	margin: 1px;
+	margin-right: 5px;
+}
+.circleGreen {
+    background: rgb(0, 209, 0);
+    border-radius: 50%;
+	border: 1px solid black;
+    width: 10px;
+    height: 10px;
+	margin: 1px;
+}
+.titleBar {
+	height: .50cm;
+	width: 100%;
+	font-family:'Trebuchet MS';
+	font-weight: bolder;
+	font-size: .40cm;
+	color: black;
+	text-align: center;
+}
+.zoomArea{
+	height: 96%;
+	width: 100%;
+	background: rgb(37, 37, 37);
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.rect1 {
+	width: 450px;
+	height: 300px;
+	background: gray;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.rect2 {
+	width: 450px;
+	height: 300px;
+	background: gray;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.rect3 {
+	width: 450px;
+	height: 300px;
+	background: gray;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+	
